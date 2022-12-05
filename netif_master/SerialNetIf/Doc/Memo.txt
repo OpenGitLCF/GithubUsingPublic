@@ -1,0 +1,64 @@
+﻿1.NetIfOpen(port,baud)
+2.NetIfOpenGlobal(var);
+3.SendCommand(SendCmd_WaitResp)
+4.WaitNotify
+
+
+2022-11-18
+NetIfOpen
+NetIfClose
+SendCmd_WaitResp
+----------------------------
+Testing 
+	Send / recv
+	Multi Frame
+	Expect Pattern and Return Value
+
+	Test Case Suit
+
+21.I'm Developing these functions:
+SendCommand_WaitResponse
+SendCommand
+ReadResponse
+WaitNotify
+
+22.Developing
+	ATP Test Case (suits)
+	Multi Result (Regular Express)
+
+	XMI EMC Case 
+
+
+23.Developing
+Manuary & Async
+Manu & Blocking
+
+24.Testing
+
+
+
+25.Testing
+
+
+
+
+------------------------Next Week
+WaitNotify
+DutCheckConnect
+DutCheckReset
+
+------------------------Next CAN
+DevCanChanConfig
+DevCanSendMessage
+DevCanRecvMessage
+
+------------------------Next Wait LIN,ETH
+DevLinChanConfig
+DevLinSendMasterRequire
+DevLinUpdateSlaveResponse
+
+DevEthChanConfig
+DevEthSendUdpMessage
+DevEthRecvUdpMessage
+
+
